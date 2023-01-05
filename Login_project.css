@@ -35,6 +35,11 @@ body[data-theme="dark"]{
 
 }
 
+select{
+    background-color: #b4bdbb;
+    align-self: flex-end;
+}
+
 .toggle_button{
     margin-top: 280px;
 
