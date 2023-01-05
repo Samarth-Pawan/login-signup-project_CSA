@@ -6,7 +6,7 @@ body[data-theme="light"]{
     --color-buttons-hover-font:#062569;
     --color-buttons-hover-effect:#062569;
 
-    background: url("/Users/samarthpawan/Desktop/login-signup project/light-theme.jpg");
+    background: url("./light-theme.jpg");
 
     --color-container-box-shadow:rgba(176, 176, 179, 0.165);
     --color-container-background:rgb(229, 244, 251);
@@ -24,7 +24,7 @@ body[data-theme="dark"]{
     --color-buttons-hover-font:#C8A2C8;
     --color-buttons-hover-effect:#C8A2C8;
 
-    background: url("/Users/samarthpawan/Desktop/login-signup project/dark-theme.webp");
+    background: url("./dark-theme.webp");
 
     --color-container-box-shadow:rgba(13, 13, 220, 0.165);
     --color-container-background:rgb(27, 27, 27);
@@ -75,16 +75,6 @@ body[data-theme="dark"]{
     border-left: var(--color-buttons-border) solid;
     background-color: var(--color-buttons-background);
     color: var(--color-buttons-font);
-
-    /* light theme */
-    /* border:rgb(3, 3, 24) solid;
-    background-color:papayawhip;
-    color:darkolivegreen; */
-
-    /* dark theme */
-    /* border-left: #C8A2C8 solid;
-    background-color: rgb(34, 34, 34);
-    color: #C8A2C8; */
   
 }
 .buttons:active{
@@ -95,12 +85,6 @@ body[data-theme="dark"]{
     opacity: 500;
 
     color: var(--color-buttons-hover-font);
-
-    /* light theme*/
-    /* color:#062569; */
-
-    /* dark theme */
-    /* color:#C8A2C8; */
 
 }
 .buttons::before{
@@ -113,12 +97,6 @@ body[data-theme="dark"]{
     transition: all ease-in-out 200ms;
 
     background-color: var(--color-buttons-hover-effect);
-
-    /* light theme */
-    /* background-color:#062569; */
-
-    /* dark theme */
-    /* background-color: #C8A2C8; */
 }
 
 .buttons:hover::before{
@@ -135,18 +113,11 @@ body{
     --border-radius:4px;
 
     margin:0 auto;
-    /* align-items: center; */
     justify-content: center;
     font-size: 18px;
 
     display: flex;
     flex-direction: column;
-
-    /* dark theme */
-    /* background: url("/Users/samarthpawan/Desktop/login-signup project/dark-theme.webp");  */
-
-    /* light theme */
-    /* background: url("/Users/samarthpawan/Desktop/login-signup project/light-theme.jpg"); */
     
     background-size:cover;
     
@@ -165,17 +136,6 @@ body{
     color:var(--color-container-font); 
 
     align-self: center;
-
-    /* light mode */
-    /* box-shadow: 0 0 40px rgba(176, 176, 179, 0.165);
-    background: rgb(229, 244, 251);
-    color:black; */
-   
-
-    /* dark theme */
-    /* box-shadow: 0 0 40px rgba(13, 13, 220, 0.165);
-    background: rgb(27, 27, 27);
-    color:white;  */
 
 }
 
@@ -234,13 +194,6 @@ body{
 
     background: var(--color-inputfield);
 
-    /* dark theme */
-    /* background: #818181; */
-
-
-    /* light theme */
-    /* background: rgb(235, 235, 235); */
-
 }
 
 .form_input:focus{
@@ -248,12 +201,6 @@ body{
     border-radius: 4px;
 
     background: var(--color-inputfield-focus);
-
-    /* light theme */
-    /* background: white; */
-
-    /* dark theme */
-    /* background: #e4e4e4; */
 }
 
 .form_input-error{
